@@ -7,12 +7,11 @@ description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce
 
 version = "1.0~ynh1"
 
-maintainers = ["johndoe"]
+maintainers = [""]
 
 [upstream]
-license = "free"
+license = "AGPL-3.0"
 website = "https://example.com"
-demo = "https://demo.example.com"
 admindoc = "https://yunohost.org/packaging_apps"
 userdoc = "https://yunohost.org/apps"
 code = "https://github.com/24eme/histopad"
@@ -34,7 +33,7 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/example"
+    default = "/histopad"
 
     [install.init_main_permission]
     type = "group"

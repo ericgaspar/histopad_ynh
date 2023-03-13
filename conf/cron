@@ -1,1 +1,1 @@
-*/5  *  *  *  * curl -s http://url_de_l_appli/run.php
+*/5  *  *  *  * curl -s http://__DOMAIN__/run.php
