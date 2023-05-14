@@ -13,11 +13,10 @@ maintainers = [""]
 license = "AGPL-3.0"
 website = "https://example.com"
 admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/24eme/histopad"
 
 [integration]
-yunohost = ">= 11.1.15"
+yunohost = ">= 11.1.19"
 architectures = "all"
 multi_instance = true
 ldap = false
